@@ -1,0 +1,9 @@
+body{
+    background-color:lavenderblush;
+    text-align: center;
+}
+.submit-button{
+    font-size:130%; 
+    border-color: #125555; 
+    font-weight: bold;
+}
