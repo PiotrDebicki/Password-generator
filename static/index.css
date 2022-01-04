@@ -1,9 +1,16 @@
 body{
     background-color:lavenderblush;
     text-align: center;
+    text-size-adjust:initial;
+    font-size: 5ch;
 }
 .submit-button{
-    font-size:130%; 
+    font-size: 2ch; 
     border-color: #125555; 
     font-weight: bold;
+    margin-bottom: 2ch;
+}
+.password-len-input{
+    width: 5ch;
+    font-size: 2ch;
 }

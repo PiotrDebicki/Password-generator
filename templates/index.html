@@ -17,13 +17,12 @@
     <h1>Password Generator</h1>
     <form method='POST'>
         {{ form.hidden_tag() }}
-        <p>Password Length: {{form.password_len}}</p>
+        <p>Password length: {{form.password_len(class="password-len-input", placeholder="1")}}</p>
         <p>Allow numbers: {{form.numbers}}</p>
         <p>Allow small letters: {{form.small_letters}}</p>
         <p>Allow high letters: {{form.high_letters}}</p>
         <p>Allow special signs: {{form.special_signs}}</p>
         <p>{{ form.submit(class="submit-button") }}</p>
-        <br>
         <p>Your password: {{answer}}</p>
     </form>
 </body>
