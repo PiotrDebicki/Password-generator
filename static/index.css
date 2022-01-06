@@ -14,3 +14,9 @@ body{
     width: 5ch;
     font-size: 2ch;
 }
+
+input[type='checkbox'] {
+    padding: 5ch;
+    width: 25px;
+    height: 25px;
+}
